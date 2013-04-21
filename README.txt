@@ -14,8 +14,8 @@ The application provides -
 Repayment amounts should be displayed to 2 decimal places and the rate of the 
 loan should be displayed to one decimal place.
 
-Borrowers should be able to request a loan of any £100 increment between £1000
-and £15000 inclusive. If the market does not have sufficient offers from
+Borrowers should be able to request a loan of any ï¿½100 increment between ï¿½1000
+and ï¿½15000 inclusive. If the market does not have sufficient offers from
 lenders to satisfy the loan then the system should inform the borrower that it
 is not possible to provide a quote at that time.
 
@@ -30,15 +30,17 @@ Example:
 The application should produce output in the form:
 
     cmd> [application] [market_file] [loan_amount]
-    Requested amount: £XXXX
+    Requested amount: ï¿½XXXX
     Rate: X.X%
-    Monthly repayment: £XXXX.XX
-    Total repayment: £XXXX.XX
+    Monthly repayment: ï¿½XXXX.XX
+    Total repayment: ï¿½XXXX.XX
 
 Example:
 
 	cmd> quote.exe market.csv 1000
-	Requested amount: £1000
+	Requested amount: ï¿½1000
 	Rate: 7.0%
-	Monthly repayment: £30.78
-	Total repayment: £1108.10
+	Monthly repayment: ï¿½30.78
+	Total repayment: ï¿½1108.10
+
+* The monthly and total repayment should use monthly compounding interest
